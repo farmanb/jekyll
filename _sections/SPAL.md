@@ -4,5 +4,3 @@ crn: Summer Program for the Advancement of Leadership
 year: 2019
 semester: Summer
 ---
-
-This is a course
