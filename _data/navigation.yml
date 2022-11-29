@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Teaching
+  link: /teaching.html
+- name: Research
+  link: /research.html
+- name: Publications
+  link: /publications.html
+- name: Curriculum Vitae
+  link: /assets/pdf/CV-BFarman.pdf
+- name: Math Genealogy
+  link: /assets/pdf/genealogy-farman.pdf

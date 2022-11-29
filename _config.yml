@@ -1,0 +1,25 @@
+collections:
+  courses:
+    output: true
+  sections:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: "course"
+  - scope:
+      path: ""
+      type: "sections"
+    values:
+      layout: "section"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-scholar

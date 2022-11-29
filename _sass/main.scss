@@ -1,0 +1,109 @@
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color:#444
+}
+
+@media screen and (prefers-color-scheme: light) {
+    html.inverted {
+        background-color:#000
+    }
+
+    html.inverted body {
+        color:#d9d9d9
+    }
+
+    html.inverted #contrast, html.inverted #invmode {
+        color: #fff;
+        background-color:#000
+    }
+
+    html.inverted blockquote {
+        color:#d3c9be
+    }
+
+    html.inverted blockquote:before {
+        color:#b8b8b8
+    }
+
+    html.inverted a {
+        color:#00a2e7
+    }
+
+    html.inverted a:visited {
+        color:#ca1a70
+    }
+
+    html.inverted span.wr {
+        color:#d24637
+    }
+
+    html.inverted span.mfw {
+        color:#b00000
+    }
+
+    html.inverted.contrast {
+        background-color:#000
+    }
+
+    html.inverted.contrast body {
+        color:#fff
+    }
+
+    html.inverted.contrast #contrast, html.inverted.contrast #invmode {
+        color: #fff;
+        background-color:#000
+    }
+
+    html.inverted.contrast blockquote {
+        color:#f8f6f5
+    }
+
+    html.inverted.contrast blockquote:before {
+        color:#e5e5e5
+    }
+
+    html.inverted.contrast a {
+        color:#44c7ff
+    }
+
+    html.inverted.contrast a:visited {
+        color:#e9579e
+    }
+
+    html.inverted.contrast span.wr {
+        color:#db695d
+    }
+
+    html.inverted.contrast span.mfw {
+        color:#ff0d0d
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #c9d1d9;
+        background:#0d1117
+    }
+
+    a:link {
+        color:#58a6ff
+    }
+
+    a:visited {
+        color: #8e96f0
+    }
+}
+
+.current {
+    color: green;
+}
+
+.profpic {
+    float: right;
+    width: 193px;
+    height: 257px;
+    margin: 0 0 15px 15px;
+}

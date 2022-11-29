@@ -1,0 +1,167 @@
+- course_number: 4007
+  crn: 44692
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thurdsay'
+      time: '11:00 AM - 12:15 AM'
+  location: 'George T. Walker Hall, Room 3 - 84'
+  schedule: yes
+- course_number: 3086
+  crn: 63395
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thurdsay'
+      time: '9:30 AM - 10:45 AM'
+  location: 'George T. Walker Hall, Room TBA'
+- course_number: 3086
+  crn: 44367
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thurdsay'
+      time: '11:00 AM - 12:15 AM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 3080
+  crn: 64863
+  year: 2022
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'George T. Walker Hall, Room 1 - 116'
+- course_number: 2040
+  crn: 65041
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '11:00 AM - 12:15 AM'
+  location: 'George T. Walker Hall, Room TBA'
+- course_number: 2032
+  crn: 44879
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Monday/Tuesday/Thursday/Friday'
+      time: '10:00 AM - 10:50 AM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+  schedule: yes
+- course_number: 2002
+  crn: 64042
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 84'
+- course_number: 2002
+  crn: 41001
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 96'
+  schedule: yes
+- course_number: 2002
+  crn: 64042
+  year: 2021
+  semester: Spring
+  meetings:
+    - day: 'Online Only'
+  schedule: yes    
+- course_number: 1007
+  crn: 64979
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 1007
+  crn: 45282
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 1007
+  crn: 45288
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 1007
+  crn: 60847
+  year: 2022
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 2 - 51'
+- course_number: 1007
+  crn: 62225
+  year: 2022
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 2 - 51'
+- course_number: 1007
+  crn: 40992
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 91'
+- course_number: 1007
+  crn: 40994
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '2:00 PM - 3:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 91'
+- course_number: 1011
+  crn: 62691
+  year: 2021
+  semester: Spring
+  meetings:
+    - day: 'Online Only'
+  schedule: yes
+- course_number: 1011
+  crn: 62690
+  year: 2021
+  semester: Spring
+  meetings:
+    - day: 'Online Only'
+  schedule: yes    
+- course_number: 1011
+  crn: 43013
+  year: 2020
+  semester: Fall
+  meetings:
+    - day: 'Online Only'
+  schedule: yes    
+- course_number: 1011
+  crn: 43002
+  year: 2020
+  semester: Fall
+  meetings:
+    - day: 'Online Only'
+  schedule: yes    
+- course_number: 1011
+  crn: 42181
+  year: 2020
+  semester: Fall
+  meetings:
+    - day: 'Online Only'
+  schedule: yes
+
+      
