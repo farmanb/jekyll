@@ -36,29 +36,25 @@ layout: section
 
   <table>
     <caption>Exam Schedule</caption>
-    <thead>
-      <tr>
-	<th>Exam</th>
-	<th>Material Covered</th>
-	<th>Date</th>
-	<th>Solutions</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% assign exams = site.data.exams | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
-      {% for exam in exams %}
-      <tr>
-	<td>{{exam.number}}</td>
-	<td>{{ exam.material | join: ", " }}</td>
-	<td>{{ exam.date }}</td>
-	{% if exam.solutions %}
-	<td><a href="{{exam.solutions}}">Solutions</a></td>
-	{% else %}
-	<td></td>
-	{% endif %}
-      </tr>
-      {% endfor %}
-    </tbody>
+    <tr>
+      <th>Exam</th>
+      <th>Material Covered</th>
+      <th>Date</th>
+      <th>Solutions</th>
+    </tr>
+    {% assign exams = site.data.exams | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+    {% for exam in exams %}
+    <tr>
+      <td>{{exam.number}}</td>
+      <td>{{ exam.material | join: ", " }}</td>
+      <td>{{ exam.date }}</td>
+      {% if exam.solutions %}
+      <td><a href="{{exam.solutions}}">Solutions</a></td>
+      {% else %}
+      <td></td>
+      {% endif %}
+    </tr>
+    {% endfor %}
   </table>
 </div>
 
@@ -67,22 +63,18 @@ layout: section
 <h2>Homework</h2>
 <div style="padding-left: 30px">
   <table><caption>Homework Assignments</caption>
-    <thead>
-      <tr>
-	<th>Assignment</th>
-	<th>Problems</th>
-	<th>Solutions</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for homework in site.data.calc2_homework %}
-      <tr>
-	<td> {{ homework.number }}</td>
-	<td> <a href="{{ homework_path }}/{{ homework.file }}">{{homework.name}}</a></td>
-	<td> <a href = "{{ homework_path}}/{{ homework.solutions }}">Solutions</a> </td>
-      </tr>
-      {% endfor %}
-    </tbody>
+    <tr>
+      <th>Assignment</th>
+      <th>Problems</th>
+      <th>Solutions</th>
+    </tr>
+    {% for homework in site.data.calc2_homework %}
+    <tr>
+      <td> {{ homework.number }}</td>
+      <td> <a href="{{ homework_path }}/{{ homework.file }}">{{homework.name}}</a></td>
+      <td> <a href = "{{ homework_path}}/{{ homework.solutions }}">Solutions</a> </td>
+    </tr>
+    {% endfor %}
   </table>
 </div>
 
@@ -91,20 +83,16 @@ layout: section
 <h2>Quizzes</h2>
 <div style="padding-left: 30px">
   <table><caption>Quiz Solutions</caption>
-    <thead>
-      <tr>
-	<th>Standard</th>
-	<th>Date</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for quiz in quizzes %}
-      <tr>
-	<td><a href="{{quiz.solutions}}">{{quiz.name}}</a></td>
-	<td>{{quiz.date}}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
+    <tr>
+      <th>Standard</th>
+      <th>Date</th>
+    </tr>
+    {% for quiz in quizzes %}
+    <tr>
+      <td><a href="{{quiz.solutions}}">{{quiz.name}}</a></td>
+      <td>{{quiz.date}}</td>
+    </tr>
+    {% endfor %}
   </table>
 </div>
 {% endif %}

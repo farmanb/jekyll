@@ -325,3 +325,55 @@
     - day: 'Monday/Wednesday'
       time: '5:30 PM - 6:45 PM'
   location: 'LeConte College, Room 115'
+- course_number: 142
+  crn: '020'
+  year: 2018
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '10:05 AM - 11:20 AM'
+  location: 'Gambrell Hall, Room 103'
+- course_number: 142
+  crn: '004'
+  year: 2014
+  semester: Summer
+  meetings:
+    - day: 'Monday - Friday'
+      time: '10:05 AM - 12:05 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 142
+  crn: '010'
+  year: 2012
+  semester: Fall
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '10:10 AM - 11:00 AM'
+  location: 'LeConte College'
+  syllabus_override: ""
+- course_number: 142
+  crn: '009'
+  year: 2012
+  semester: Fall
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '11:15 AM - 12:05 PM'
+  location: 'LeConte College'  
+  syllabus_override: ""
+- course_number: 141
+  crn: '007'
+  year: 2013
+  semester: Spring
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '8:00 AM - 8:50 AM'
+  location: 'LeConte College'  
+  syllabus_override: ""
+- course_number: 141
+  crn: '008'
+  year: 2013
+  semester: Spring
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '9:30 AM - 10:20 AM'
+  location: 'LeConte College'  
+  syllabus_override: ""    
