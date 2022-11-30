@@ -376,4 +376,12 @@
     - day: 'Wednesday/Friday' 
       time: '9:30 AM - 10:20 AM'
   location: 'LeConte College'  
-  syllabus_override: ""    
+  syllabus_override: ""
+- course_number: 122
+  crn: 'E01'
+  year: 2017
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday' 
+      time: '6:00 PM - 7:15 PM'
+  location: 'LeConte College, Room 101'
