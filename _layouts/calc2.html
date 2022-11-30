@@ -2,6 +2,65 @@
 layout: section
 ---
 
+<h2>Animations</h2>
+<div style="padding-left: 30px; width: 100%; overflow: hidden;">
+  <div style="float: left; width: 50%;">
+    <h2>Parametric Curves</h2>
+    <div style="padding-left: 30px;">
+      <ul>
+	{% for anim in site.data.parametric_animations %}
+	<li><a href="{{anim.link}}">{{anim.name}}</a></li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div style="float: left; width: 50%;">
+    <h2>Polar Curves</h2>
+    <div style="padding-left: 30px;">
+      <ul>
+	{% for anim in site.data.polar_animations %}
+	<li><a href="{{anim.link}}">{{anim.name}}</a></li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2>Exams</h2>
+<div style="padding-left: 30px">
+
+  <p>
+    In class exams will be held during the usual lecture time.
+    The dates and material covered for the in class exams are listed below.
+  </p>
+
+  <table ><caption>Exam Schedule</caption>
+    <thead>
+      <tr>
+	<th>Exam</th>
+	<th>Material Covered</th>
+	<th>Date</th>
+	<th>Solutions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign exams = site.data.exams | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+      {% for exam in exams %}
+      <tr>
+	<td>{{exam.number}}</td>
+	<td>{{ exam.material | join: ", " }}</td>
+	<td>{{ exam.date }}</td>
+	{% if exam.solutions %}
+	<td><a href="{{exam.solutions}}">Solutions</a></td>
+	{% else %}
+	<td></td>
+	{% endif %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
 {% assign homework_path = '/assets/calc2/homework' %}
 
 <h2>Homework</h2>
