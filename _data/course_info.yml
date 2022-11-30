@@ -309,3 +309,19 @@
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 201'
   syllabus_override: '/assets/syllabi/syllabus-161-04-2018.pdf'
+- course_number: 170
+  crn: '002'
+  year: 2016
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '12:00 PM - 12:50 PM'
+  location: 'Callcott Social Sciences Center, Room 101'
+- course_number: 170
+  crn: '007'
+  year: 2014
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '5:30 PM - 6:45 PM'
+  location: 'LeConte College, Room 115'
