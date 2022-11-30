@@ -1,0 +1,28 @@
+---
+layout: section
+---
+
+{% assign homework_path = '/assets/calc2/homework' %}
+
+<h2>Homework</h2>
+<div style="padding-left: 30px">
+  <table><caption>Homework Assignments</caption>
+    <thead>
+      <tr>
+	<th>Assignment</th>
+	<th>Problems</th>
+	<th>Solutions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for homework in site.data.calc2_homework %}
+      <tr>
+	<td> {{ homework.number }}</td>
+	<td> <a href="{{ homework_path }}/{{ homework.file }}">{{homework.name}}</a></td>
+	<td> <a href = "{{ homework_path}}/{{ homework.solutions }}">Solutions</a> </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{{ content }}
