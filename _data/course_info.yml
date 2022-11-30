@@ -214,4 +214,12 @@
     - day: 'Monday/Wednesday/Friday'
       time: '3:00 PM - 3:50 PM'
   location: 'Lafayette Hall, Room L210'    
-  syllabus_override: '/assets/syllabi/syllabus-19-S.html'            
+  syllabus_override: '/assets/syllabi/syllabus-19-S.html'
+- course_number: 272
+  crn: Section 01
+  year: 2020
+  semester: Spring
+  meetings:
+    - day: 'Monday - Friday'
+      time: '1:10 PM - 2:00 PM'
+  location: 'George T. Walker Hall, Room 3 - 96'  
