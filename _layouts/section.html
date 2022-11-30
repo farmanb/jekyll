@@ -15,6 +15,9 @@ layout: default
     {{ meeting.day }}
     {% if meeting.time %}
     : {{ meeting.time }}
+    {% unless meeting == info.meetings.last %}
+    <br/>
+    {% endunless %}
     {% endif %}
     {% endfor %}
     <br/>

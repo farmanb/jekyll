@@ -385,3 +385,64 @@
     - day: 'Tuesday/Thursday' 
       time: '6:00 PM - 7:15 PM'
   location: 'LeConte College, Room 101'
+- course_number: 116
+  crn: 'E1B'
+  year: 2016
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '5:50 PM - 6:40 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '6:00 PM - 6:50 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E1B'
+  year: 2015
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '5:50 PM - 6:40 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '6:00 PM - 6:50 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E1B'
+  year: 2013
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E2B'
+  year: 2016
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E2B'
+  year: 2015
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E2B'
+  year: 2013
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+  
