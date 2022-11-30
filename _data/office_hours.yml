@@ -160,10 +160,10 @@
   - day: 'Monday/Wednesday/Friday'
     hours:
       - '1:00 PM - 2:00 PM'
-  location: 'LeConte College, Room 400A'
+  location: 'LeConte College, Room 107'
 - year: 2013
   semester: 'Spring'
-  location: 'LeConte College '
+  location: 'LeConte College 107'
 - year: 2012
   semester: 'Fall'
 - year: 2010

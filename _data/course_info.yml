@@ -445,4 +445,38 @@
     - day: 'Tuesday/Thursday' 
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
-  
+- course_number: 115
+  crn: '011'
+  year: 2014
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '3:55 PM - 5:10 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '4:25 PM - 5:15 PM'
+  location: 'LeConte College, Room 101'
+- course_number: 111
+  crn: '006'
+  year: 2017
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '6:00 PM - 7:15 PM'
+  location: 'Callcot Social Sciences Center, Room 003'
+  syllabus_override: '/assets/syllabi/syllabus-111-006-2017.pdf'
+- course_number: 111
+  crn: '006'
+  year: 2015
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday' 
+      time: '10:50 AM - 11:40 AM'
+  location: 'Gambrell Hall, Room 124'
+- course_number: 111
+  crn: 'M13'
+  year: 2013
+  semester: Summer
+  meetings:
+    - day: 'Monday/Wednesday/Friday' 
+      time: '1:00 PM - 2:00 PM'
+  location: 'Welsh Humanities, Room 317'
