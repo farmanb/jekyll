@@ -35,21 +35,21 @@ layout: default
     <p>{{office_hours.location}}</p>
   </div>
   {% endif %}
-  <h3>Syllabus</h3>
+  <h3>Documents</h3>
   <div style="padding-left: 30px">
     <p>
       {% if info.syllabus_override %}
-      <a href="{{ info.syllabus_override }}"> CRN {{ info.crn }}</a>
+      <a href="{{ info.syllabus_override }}">Syllabus</a>
       {% else %}
-      <a href="/assets/syllabi/syllabus-{{info.course_number}}-{{info.crn}}.pdf"> CRN {{ info.crn }}</a>
+      <a href="/assets/syllabi/syllabus-{{info.course_number}}-{{info.crn}}.pdf">Syllabus</a>
       {% endif %}
     </p>
   </div>
   {% if info.schedule %}
-  <h3>Schedule</h3>
+  <!-- <h3>Schedule</h3> -->
   <div style="padding-left: 30px">
     <p>
-      <a href="/assets/schedules/schedule-{{info.course_number}}-{{info.semester}}-{{info.year}}.pdf">{{info.semester}} {{info.year}}</a>
+      <a href="/assets/schedules/schedule-{{info.course_number}}-{{info.semester}}-{{info.year}}.pdf">Course Schedule</a>
     </p>
   </div>
   {% endif %}

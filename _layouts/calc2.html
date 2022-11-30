@@ -84,4 +84,27 @@ layout: section
     </tbody>
   </table>
 </div>
+
+{% assign quizzes = site.data.quizzes | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+{% if quizzes.size > 0 %}
+<h2>Quizzes</h2>
+<div style="padding-left: 30px">
+  <table><caption>Quiz Solutions</caption>
+    <thead>
+      <tr>
+	<th>Standard</th>
+	<th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for quiz in quizzes %}
+      <tr>
+	<td><a href="{{quiz.solutions}}">{{quiz.name}}</a></td>
+	<td>{{quiz.date}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
 {{ content }}

@@ -4,7 +4,7 @@
   semester: Fall
   meetings:
     - day: 'Tuesday/Thurdsay'
-      time: '11:00 AM - 12:15 AM'
+      time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 84'
   schedule: yes
 - course_number: 3086
@@ -21,7 +21,7 @@
   semester: Fall
   meetings:
     - day: 'Tuesday/Thurdsay'
-      time: '11:00 AM - 12:15 AM'
+      time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
 - course_number: 3080
   crn: 64863
@@ -37,7 +37,7 @@
   semester: Spring
   meetings:
     - day: 'Monday/Wednesday'
-      time: '11:00 AM - 12:15 AM'
+      time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room TBA'
 - course_number: 2032
   crn: 44879
@@ -220,6 +220,92 @@
   year: 2020
   semester: Spring
   meetings:
-    - day: 'Monday - Friday'
-      time: '1:10 PM - 2:00 PM'
-  location: 'George T. Walker Hall, Room 3 - 96'  
+    - day: 'Monday/Wednesday/Friday'
+      time: '3:00 PM - 4:30 PM'
+  location: 'Pardee Hall, Room 321'
+- course_number: 162
+  crn: Section 01
+  year: 2019
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '8:00 AM - 9:15 AM'
+  location: 'Pardee Hall, Room 227'
+- course_number: 162
+  crn: Section 03
+  year: 2019
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 227'
+- course_number: 162
+  crn: Section 06
+  year: 2019
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '2:45 PM - 4:00 PM'
+  location: 'Pardee Hall, Room 201'
+- course_number: 162
+  crn: Section 07
+  year: 2019
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 217'
+- course_number: 161
+  crn: Section 01
+  year: 2020
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-01-2020.pdf'
+- course_number: 161
+  crn: Section 02
+  year: 2020
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-02.pdf'
+- course_number: 161
+  crn: Section 04
+  year: 2019
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'Pardee Hall, Room 217'
+  syllabus_override: '/assets/syllabi/syllabus-161-04.pdf'
+- course_number: 161
+  crn: Summer Program for the Advancement of Leadership
+  year: 2019
+  semester: Summer
+  meetings:
+    - day: 'Monday - -Friday'
+      time: '9:00 AM - 11:00 AM'
+  location: 'Pardee Hall, Room 217'
+  syllabus_override: '/assets/syllabi/syllabus-SPAL.pdf'
+- course_number: 161
+  crn: Section 01
+  year: 2018
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '8:00 AM - 9:15 AM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-01-2018.pdf'
+- course_number: 161
+  crn: Section 04
+  year: 2018
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-04-2018.pdf'

@@ -1,0 +1,91 @@
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 1
+  name: "Inverse Trigonometric Functions"
+  solutions: "../../quizzes/inverse.trig.pdf"
+  date: '9/6/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 2
+  name: "L'Hôpital's Rule"
+  solutions: "../../quizzes/lhospital.pdf"
+  date: '9/9/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 3  
+  name: "Area and Volume"
+  solutions: "../../quizzes/area.and.volume.pdf"
+  date: '9/20/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 4  
+  name: "Integration by Parts"
+  solutions: "../../quizzes/parts.pdf"
+  date: '9/23/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 5  
+  name: "Differential Equations"
+  solutions: "../../quizzes/diff.eq.pdf"
+  date: '10/4/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 6  
+  name: "Parametric Curves"
+  solutions: "../../quizzes/parametric.pdf"
+  date: '10/9/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 7  
+  name: "Sequences"
+  solutions: "../../quizzes/sequences.pdf"
+  date: '10/28/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 8  
+  name: "Geometric Series"
+  solutions: "../../quizzes/geometric.series.pdf"
+  date: '11/1/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 9  
+  name: "The Integral Test"
+  solutions: "../../quizzes/integral.test.pdf"
+  date: '11/8/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 10  
+  name: "The Comparison Tests"
+  solutions: "../../quizzes/comparison.tests.pdf"
+  date: '11/11/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 11  
+  name: "Alternating Series"
+  solutions: "../../quizzes/alternating.series.pdf"
+  date: '11/13/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 12  
+  name: "The Ratio and Root Tests"
+  solutions: "../../quizzes/ratio.and.root.pdf"
+  date: '11/15/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 13  
+  name: "Power Series"
+  solutions: "../../quizzes/power.series.pdf"
+  date: '11/20/19'
