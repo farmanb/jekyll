@@ -20,9 +20,10 @@ layout: default
     <br/>
     {{ info.location}}
   </div>
+  {% assign office_hours = site.data.office_hours | where_exp: "item", "item.year == page.year and item.semester == page.semester" | first %}
+  {% if office_hours.times %}
   <h3>Office Hours</h3>
   <div style="padding-left: 30px">
-    {% assign office_hours = site.data.office_hours | where_exp: "item", "item.year == page.year and item.semester == page.semester" | first %}
     <dl>
       {% for time in office_hours.times %}
       <dt>{{time.day}}:</dt>
@@ -31,11 +32,17 @@ layout: default
       {% endfor %}
     {% endfor %}
     </dl>
+    <p>{{office_hours.location}}</p>
   </div>
+  {% endif %}
   <h3>Syllabus</h3>
   <div style="padding-left: 30px">
     <p>
+      {% if info.syllabus_override %}
+      <a href="{{ info.syllabus_override }}"> CRN {{ info.crn }}</a>
+      {% else %}
       <a href="/assets/syllabi/syllabus-{{info.course_number}}-{{info.crn}}.pdf"> CRN {{ info.crn }}</a>
+      {% endif %}
     </p>
   </div>
   {% if info.schedule %}
