@@ -4,7 +4,7 @@ title: Blake Farman
 ---
 
 ![image](/assets/images/me.jpg){: .profpic}
-I am currently an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu)
+I am currently an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
 I am also a [Project NExT (New Experiences in Teaching)](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow in the Red '22 cohort.
 I was previously a Visiting Assistant Professor in the [Department of Mathematics](http://math.lafayette.edu) at [Lafayette College](http://lafayette.edu).
 
